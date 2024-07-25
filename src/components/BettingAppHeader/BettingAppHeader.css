@@ -1,0 +1,11 @@
+.smarkets-header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.smarkets-logo {
+    cursor: pointer;
+}

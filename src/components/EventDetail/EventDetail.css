@@ -1,0 +1,98 @@
+.event-page-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.event-block,
+.markets-info {
+  border-radius: 4px;
+
+  color: white;
+}
+
+.event-info-block {
+  width: 50%;
+}
+
+.event-main-info {
+  font-size: x-large;
+}
+
+.market-main-info {
+  font-size: large;
+}
+
+.market-traded {
+  color: #a6a6a6;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.markets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+
+.arrow {
+  width: 30px;
+}
+
+.event-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.event-title {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+}
+
+.markets-info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.market-tile {
+  background-color: #161616;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.market-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contracts {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.contract-price {
+  background-color: gray;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1366px) {
+  .event-info-block {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .event-info-block {
+    width: 100%;
+  }
+}
