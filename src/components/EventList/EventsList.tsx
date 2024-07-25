@@ -1,8 +1,8 @@
 import "./EventList.css";
 import EventCell from "../EventCell/EventCell";
-import type { Event } from "../../assets/MockData/MockEvents";
-import { Market } from "../../assets/MockData/MockMarkets";
-import { MarketVolume } from "../../assets/MockData/MockMarketVolumes";
+import type { Event } from "../../MockData/MockEvents";
+import { Market } from "../../MockData/MockMarkets";
+import { MarketVolume } from "../../MockData/MockMarketVolumes";
 
 export interface EventListProps {
   events: Event[];

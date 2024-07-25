@@ -1,9 +1,9 @@
 import "./EventDetail.css";
 import { useState } from "react";
-import { Event } from "../../assets/MockData/MockEvents";
-import { Market } from "../../assets/MockData/MockMarkets";
-import { MarketContract } from "../../assets/MockData/MockMarketContracts";
-import { MarketVolume } from "../../assets/MockData/MockMarketVolumes";
+import { Event } from "../../MockData/MockEvents";
+import { Market } from "../../MockData/MockMarkets";
+import { MarketContract } from "../../MockData/MockMarketContracts";
+import { MarketVolume } from "../../MockData/MockMarketVolumes";
 import downArrow from "../../assets/down-arrow-svgrepo-com.svg";
 import upArrow from "../../assets/up-arrow-svgrepo-com.svg";
 

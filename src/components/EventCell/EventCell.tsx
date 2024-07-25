@@ -1,8 +1,8 @@
 import "./EventCell.css";
 import { useNavigate } from "react-router-dom";
-import { Event } from "../../assets/MockData/MockEvents";
-import { Market } from "../../assets/MockData/MockMarkets";
-import { MarketVolume } from "../../assets/MockData/MockMarketVolumes";
+import { Event } from "../../MockData/MockEvents";
+import { Market } from "../../MockData/MockMarkets";
+import { MarketVolume } from "../../MockData/MockMarketVolumes";
 
 interface EventCellProps {
   event: Event;
