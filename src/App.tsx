@@ -3,7 +3,7 @@ import { HomePage, EventPage } from './pages';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/betting-application/">
+    <BrowserRouter basename="/betting-application">
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
