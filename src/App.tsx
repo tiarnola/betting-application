@@ -1,11 +1,9 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HomePage, EventPage } from './pages';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HomePage, EventPage } from "./pages";
 
 const App = () => {
   return (
-    <BrowserRouter 
-    // basename="/betting-application/"
-    >
+    <BrowserRouter>
       <div>
         <Routes>
           <Route path="" element={<HomePage />} />
